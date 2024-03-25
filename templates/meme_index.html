@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>
+        Meme Website
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="20">
+    <style>
+        body {
+            background-color: #000000; /* Background color set to black */
+            background-repeat: no-repeat;
+            background-position: center top; /* Background position adjusted */
+            /* Note: there was a typo in 'background-position.cap left', I corrected it */
+            /* Removed the unexpected characters 'b////////' */
+            /* Added some additional styles for better readability */
+            color: #ffffff; /* Text color set to white */
+            font-family: Arial, sans-serif; /* Using Arial font with fallback to sans-serif */
+            padding: 20px; /* Added padding for better spacing */
+            text-align: center; /* Center aligning text */
+        }
+        h1 {
+            font-size: 24px; /* Increased font size for heading */
+            margin-bottom: 20px; /* Added margin for spacing below heading */
+        }
+        p {
+            font-size: 18px; /* Set font size for paragraphs */
+            line-height: 1.5; /* Increased line height for better readability */
+            margin-bottom: 10px; /* Added margin for spacing between paragraphs */
+        }
+        img {
+            max-width: 100%; /* Ensure images don't exceed the width of their container */
+            height: auto; /* Maintain aspect ratio of images */
+            margin-top: 20px; /* Added margin for spacing above image */
+            margin-bottom: 20px; /* Added margin for spacing below image */
+        }
+    </style>
+</head>
+<body>
+    <h1>A website to gather some memes!</h1>
+    <p>Here is your Meme! This will refresh in 20 seconds!</p>
+    <p><img src="{{meme_pic}}"></p>
+    <p>Current subreddit: {{subreddit}} </p>
+</body>
+</html>
